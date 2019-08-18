@@ -1,0 +1,758 @@
+<html class="no-js" lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>EFA</title>
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- CSS
+ ================================================== -->
+ <link rel="stylesheet" href="css/base.css">
+ <link rel="stylesheet" href="css/vendor.css">
+ <link rel="stylesheet" href="css/main.css">
+
+ <!-- script 
+===================== -->
+ 
+ <script src="js/modernizr.js"></script>
+ <script src="js/pace.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-database.js"></script>
+<!-- <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+</script> -->
+
+ <!-- favicons
+ ================================================== -->
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+ <!-- header
+ ================================================== -->
+ <header class="s-header">
+
+ <div class="header-logo">
+ <a class="site-logo" href="index.html">
+ <img src="images/logo.png" alt="Homepage">
+ <!-- logo efa -->
+ </a>
+ </div>
+
+ <nav class="header-nav">
+ <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+ <div class="header-nav__content">
+ <h3>Navigation</h3>
+ <ul class="header-nav__list">
+ <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+ <li><a class="smoothscroll" href="#speakers" title="about">Articles</a></li>
+ <li><a class="smoothscroll" href="#services" title="services">Events</a></li>
+ <li><a class="smoothscroll" href="#works" title="works">Gallery</a></li>
+ <li><a class="smoothscroll" href="#clients" title="clients">Team</a></li>
+ <li><a class="smoothscroll" href="#" title="clients">Internships</a></li>
+ <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+ </ul> 
+ <p>It is a website extension of <a href='#0'>EFA</a> for knowledge sharing and opportunities in the field of finance and economics.
+ 
+ <ul class="header-nav__social">
+ <li>
+ <a href="#"><i class="fa fa-facebook"></i></a>
+ </li>
+ <li>
+ <a href="#"><i class="fa fa-twitter"></i></a>
+ </li>
+ <li>
+ <a href="#"><i class="fa fa-instagram"></i></a>
+ </li>
+ </ul>
+ </div> <!-- end header-nav__content -->
+ </nav> <!-- end header-nav -->
+
+ <a class="header-menu-toggle" href="#0">
+ <span class="header-menu-text">Menu</span>
+ <span class="header-menu-icon"></span>
+ </a>
+
+ </header> <!-- end s-header -->
+
+
+ <!-- home
+ ================================================== -->
+ <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpeg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+ <div class="overlay"></div>
+ <div class="shadow-overlay"></div>
+
+ <div class="home-content">
+
+ <div class="row home-content__main">
+
+ <h3>Welcome to EFA</h3>
+
+ <h1>
+ EFA is a group of <br>
+ economic and finance <br>
+ enthusiasts with an aim <br>
+ to nurture the finance culture on campus 
+ </h1>
+
+ <div class="home-content__buttons">
+ <a href="https://keshav293597.typeform.com/to/tKQtI7" target="_blank" class="btn btn--stroke">
+ Register Now
+ </a>
+ <a href="#services" class="smoothscroll btn btn--stroke">
+ More About Us
+ </a>
+ </div>
+ </div>
+ <div class="home-content__scroll">
+ <a href="#speakers" class="scroll-link smoothscroll">
+ <span>Scroll Down</span>
+ </a>
+ </div>
+
+ <div class="home-content__line"></div>
+ </div> <!-- end home-content -->
+
+
+ 
+ <ul class="home-social">
+ <li>
+ <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+ </li>
+ <li>
+ <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+ </li>
+ <li>
+ <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+ </li>
+ 
+ </ul> 
+ <!-- end home-social -->
+
+ </section> <!-- end s-home -->
+
+
+ <!-- about
+ ================================================== -->
+
+
+ <section id="speakers">
+ <img class="speaker-icon " src="https://firebasestorage.googleapis.com/v0/b/efa-bitspilani.appspot.com/o/download.png?alt=media&token=0eb33ad9-b53c-4252-b947-e945af98854c" alt="Articles Icon" />
+ <h2 class="section-heading">Articles</h2>
+ <p>
+ Latest Articles by EFA </p>
+ 
+ <div class="main-speaker">
+ <div class="main-speaker-img-container ">
+ <img id="imageid1" alt="Photo" />
+ </div>
+ 
+ <div class="main-speaker-info">
+ <h3 id="name11"></h3>
+ 
+ <p id="name12"></p>
+ 
+ <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+ 
+ <span class="tip1"></span>
+ </div>
+ </div>
+ <!-- main speaker -->
+ 
+ <div class="speakers-container">
+ <div class="speaker">
+ <div class="speaker-img-container">
+ <img id="imageid2" alt="Photo" />
+ </div>
+ 
+ <div class="speaker-info">
+ <h3 id="name21"></h3>
+ 
+ <p id="name22"></p>
+ <a href="https://www.twitters.com" target="_blank"><i class="fa fa-twitter"></i></a>
+ 
+ <span class="tip2"></span>
+ </div>
+ </div>
+ 
+ <div class="speaker">
+ <div class="speaker-img-container">
+ <img id="imageid3" alt="Photo" />
+ </div>
+ 
+ <div class="speaker-info">
+ <h3 id="name31"></h3>
+ 
+ <p id="name32"></p>
+ <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+ 
+ <span class="tip3"></span>
+ </div>
+ </div>
+ </div>
+ <!-- speakers container -->
+ 
+ <div class="speakers-container">
+ <div class="speaker">
+ <div class="speaker-info">
+ <h3 id="name41"></h3>
+ 
+ <p id="name42"></p>
+ <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+ 
+ <span class="tip4"></span>
+ </div>
+ 
+ <div class="speaker-img-container">
+ <img id="imageid4" alt="Photo" />
+ </div>
+ </div>
+ 
+ <div class="speaker">
+ <div class="speaker-info">
+ <h3 id="name51"></h3>
+ 
+ <p id="name52"></p>
+ <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+ 
+ <span class="tip5"></span>
+ </div>
+ 
+ <div class="speaker-img-container">
+ <img id="imageid5" alt="Photo" />
+ </div>
+ </div>
+ </div>
+ <!-- speakers container -->
+ 
+ </section>
+ <!-- end s-about -->
+
+
+ <!-- services
+ ================================================== -->
+ <section id='services' class="s-services">
+
+ <div class="row section-header has-bottom-sep" data-aos="fade-up">
+ <div class="col-full">
+ <h3 class="subhead">What We Do</h3>
+ <h1 class="display-2">Events organized by Economics and Finance Association</h1>
+ </div>
+ </div> <!-- end section-header -->
+
+ <div class="row services-list block-1-2 block-tab-full">
+
+ <div class="col-block service-item" data-aos="fade-up">
+ <div class="service-icon">
+ <i class="icon-paint-brush"></i>
+ </div>
+ <div class="service-text">
+ <h3 class="h2">Mock Stock</h3>
+ <p> A fun virtual stock investment game where you get a chance
+ to showcase your your instinct in stock market investment.
+
+ </p>
+ </div>
+ </div>
+
+ <div class="col-block service-item" data-aos="fade-up">
+ <div class="service-icon">
+ <i class="icon-group"></i>
+ </div>
+ <div class="service-text">
+ <h3 class="h2">Stock market stimulation</h3>
+ <p> Trade stock virtually throgh an online
+ web app and beat the market.
+ </p>
+ </div>
+ </div>
+
+ <div class="col-block service-item" data-aos="fade-up">
+ <div class="service-icon">
+ <i class="icon-megaphone"></i>
+ </div> 
+ <div class="service-text">
+ <h3 class="h2">Talks</h3>
+ <p> Regular talks and sessions on a plethora of 
+ topics by some of the most renowned and 
+ finest in the industry.
+ </p>
+ </div>
+ </div>
+
+ <div class="col-block service-item" data-aos="fade-up">
+ <div class="service-icon">
+ <i class="icon-earth"></i>
+ </div>
+ <div class="service-text">
+ <h3 class="h2">Workshops</h3>
+ <p> Hands on training and insights about
+ softwares used in finance and economics.
+ 
+ </p>
+ </div>
+ </div>
+
+ <div class="col-block service-item" data-aos="fade-up">
+ <div class="service-icon">
+ <i class="icon-cube"></i>
+ </div>
+ <div class="service-text">
+ <h3 class="h2">Guest lectures</h3>
+ <p> Classroom specific lectures on recent 
+ economics news by experts. 
+ </p>
+ </div>
+ </div>
+ 
+ <div class="col-block service-item" data-aos="fade-up">
+ <div class="service-icon"><i class="icon-lego-block"></i></div>
+ <div class="service-text">
+ <h3 class="h2">Open sessions</h3>
+ <p> Discussions on important economics 
+ topics and trends.
+ </p>
+ </div>
+ </div>
+
+ </div> <!-- end services-list -->
+
+ </section> <!-- end s-services -->
+
+
+ <!-- works
+ ================================================== -->
+ <section id='works' class="s-works">
+
+ <div class="intro-wrap">
+ 
+ <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+ <div class="col-full">
+ <h3 class="subhead"> Gallery </h3>
+ <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
+ </div>
+ </div> <!-- end section-header -->
+
+ </div> <!-- end intro-wrap -->
+
+ <div class="row works-content">
+ <div class="col-full masonry-wrap">
+ <div class="masonry">
+ 
+ <div class="masonry__brick" data-aos="fade-up">
+ <div class="item-folio">
+ 
+ <div class="item-folio__thumb">
+ <a href="images/portfolio/gallery/photo1.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+ <img src="images/portfolio/photo1.jpg" 
+ srcset="images/portfolio/photo1.jpg 1x, images/portfolio/photo1.jpg 2x" alt=""style="width:100%;padding-right:5px;">
+ </a>
+ </div>
+ 
+ <div class="item-folio__text">
+ <h3 class="item-folio__title">
+ Team EFA
+ </h3>
+ <p class="item-folio__cat">
+ Appogee snap
+ </p>
+ </div>
+ 
+ <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+ <i class="icon-link"></i>
+ </a>
+ 
+ <div class="item-folio__caption">
+ <p></p>
+ </div>
+ 
+ </div>
+ </div> <!-- end masonry__brick -->
+
+ <div class="masonry__brick" data-aos="fade-up">
+ <div class="item-folio">
+ 
+ <div class="item-folio__thumb">
+ <a href="images/portfolio/gallery/photo2.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+ <img src="images/portfolio/photo.jpg" style="width:100%;padding-right:5px;"
+ srcset="images/portfolio/photo2.jpg 1x, images/portfolio/photo2.jpg 2x" alt="">
+ </a>
+ </div>
+ 
+ <div class="item-folio__text">
+ <h3 class="item-folio__title">
+ Talk 
+ </h3>
+ <p class="item-folio__cat">
+ EFA Talks
+ </p>
+ </div>
+ 
+ <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+ <i class="icon-link"></i>
+ </a>
+ 
+ <div class="item-folio__caption">
+ <p> </p>
+ </div>
+ 
+ </div>
+ </div> <!-- end masonry__brick -->
+ 
+ <div class="masonry__brick" data-aos="fade-up">
+ <div class="item-folio">
+ 
+ <div class="item-folio__thumb">
+ <a href="images/portfolio/gallery/photo3.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+ <img src="images/portfolio/photo3.jpg" style="width:100%;padding-right:5px; padding-top: 5px"
+ srcset="images/portfolio/photo3.jpg 1x, images/portfolio/photo3.jpg 2x" alt="">
+ </a>
+ </div>
+ 
+ <div class="item-folio__text">
+ <h3 class="item-folio__title">
+ Outing 
+ </h3>
+ <p class="item-folio__cat">
+ Recreational Activity
+ </p>
+ </div>
+ 
+ <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+ <i class="icon-link"></i>
+ </a>
+ 
+ <div class="item-folio__caption">
+ <p></p>
+ </div>
+ 
+ </div>
+ </div> <!-- end masonry__brick -->
+ 
+
+ <div class="masonry__brick" data-aos="fade-up">
+ <div class="item-folio">
+ 
+ <div class="item-folio__thumb">
+ <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+ <img src="images/portfolio/guitarist.jpg" 
+ srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
+ </a>
+ </div>
+ 
+ <div class="item-folio__text">
+ <h3 class="item-folio__title">
+ Guitarist
+ </h3>
+ <p class="item-folio__cat">
+ Web Design
+ </p>
+ </div>
+ 
+ <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+ <i class="icon-link"></i>
+ </a>
+ 
+ <div class="item-folio__caption">
+ <p></p>
+ </div>
+ 
+ </div>
+ </div> <!-- end masonry__brick -->
+ 
+ <div class="masonry__brick" data-aos="fade-up">
+ <div class="item-folio">
+ 
+ <div class="item-folio__thumb">
+ <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+ <img src="images/portfolio/palmeira.jpg"
+ srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
+ </a>
+ </div>
+ 
+ <div class="item-folio__text">
+ <h3 class="item-folio__title">
+ Palmeira
+ </h3>
+ <p class="item-folio__cat">
+ Web Design
+ </p>
+ </div>
+ 
+ <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+ <i class="icon-link"></i>
+ </a>
+ 
+ <div class="item-folio__caption">
+ <p></p>
+ </div>
+ 
+ </div>
+ </div> <!-- end masonry__brick -->
+
+ </div> <!-- end masonry -->
+ </div> <!-- end col-full -->
+ </div> <!-- end works-content -->
+
+ </section> <!-- end s-works -->
+
+    <!-- clients
+    ================================================== -->
+    <!-- <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Team</h3>
+                <h1 class="display-2">EFA has a team of economics enthusiast who are dedicated to promote economics  </h1>
+            </div>
+    </div>  -->
+        <!-- end section-header -->
+<!-- 
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+                    
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/keshav.jpg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
+                     
+                </div> 
+            </div> 
+        </div>  -->
+        <section id="clients" class="s-clients">
+
+<!-- all members -->
+<div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Our Team</h3>
+            <h1 class="display-2">EFA has a team of economics enthusiast who are dedicated to promote economics  </h1>
+        </div>
+    </div> 
+<!-- all members -->
+            <div class="row clients-testimonials" data-aos="fade-up">
+                <div class="col-full">
+                    <div class="testimonials">
+    
+                        <div class="testimonials__slide">
+    
+                            <p>"EFA has so much to offer to students of bits about economics and finance"</p>
+    
+                            <img src="images/avatars/akgiri.jpeg" alt="Author image" class="testimonials__avatar">
+                            <div class="testimonials__info">
+                                <span class="testimonials__name">AK GIRI</span> 
+                                <span class="testimonials__pos">HOD, Economics Department</span>
+                            </div>
+    
+                        </div>
+    
+                        <div class="testimonials__slide">
+                            
+                            <p>"We believe in making finance and economics resources accessible to all 
+                                and complementing it with real life cases."</p>
+    
+                            <img src="images/avatars/anant.jpg" alt="Author image" class="testimonials__avatar">
+                            <div class="testimonials__info">
+                                <span class="testimonials__name">Anant </span> 
+                                <span class="testimonials__pos">Secretory, EFA</span>
+                            </div>
+    
+                        </div>
+    
+                        <div class="testimonials__slide">
+                            
+                            <p>"The idea is to get better with every passing event and making
+                                them more exciting and engaging." </p>
+    
+                            <img src="images/avatars/manav.jpg" alt="Author image" class="testimonials__avatar">
+                            <div class="testimonials__info">
+                                <span class="testimonials__name">Manav Kaushik</span> 
+                                <spasn class="testimonials__pos">President, EFA</span>
+                            </div>
+    
+                        </div>
+                        <!-- <div class="testimonials__slide">
+                            
+                                <p>"Apogee is one of our most imortant fest and presents the noteworthy events in economics and finance." </p>
+        
+                                <img src="images/avatars/hrishav.jpg" alt="Author image" class="testimonials__avatar">
+                                <div class="testimonials__info">
+                                    <span class="testimonials__name">Hrishav raj</span> 
+                                    <spasn class="testimonials__pos">Former Apogee cordinator, EFA</span>
+                                </div>
+        
+                            </div> -->
+    
+                    </div><!-- end testimonials -->
+                    
+                </div> <!-- end col-full -->
+            </div> <!-- end client-testimonials -->
+            </section>
+ <!-- <div id="map"></div> -->
+
+ <!-- contact
+ ================================================== -->
+ <section id="contact" class="s-contact">
+
+ <div class="overlay"></div>
+ <div class="contact__line"></div>
+
+ <div class="row section-header" data-aos="fade-up">
+ <div class="col-full">
+ <h3 class="subhead">Contact Us</h3>
+ <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+ </div>
+ </div>
+
+ <div class="row contact-content" data-aos="fade-up">
+ 
+ <div class="contact-primary"> 
+
+ <h3 class="h6">Reach pilani</h3> 
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.8475533967126!2d75.58385781460666!3d28.363458202959798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391319c1e88a4365%3A0xaeca0b9b79331cde!2sBITS+Pilani!5e0!3m2!1sen!2sin!4v1565427246707!5m2!1sen!2sin" width="80%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+ <!-- end contact-primary -->
+
+ <div class="contact-secondary" >
+ <div class="contact-info">
+
+ <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+ <div class="cinfo">
+ <h5>Where to Find Us</h5>
+ <p>
+ Bits pilani<br>
+ Rajasthan, India<br>
+ 
+ </p>
+ </div>
+
+ <div class="cinfo">
+ <h5>Email Us At</h5>
+ <p>
+ contact@efa-bitspilani.com<br>
+ keshav.sethi0004@gmail.com
+ </p>
+ </div>
+
+ <div class="cinfo">
+ <h5>Call Us At</h5>
+ <p>
+ Phone: 7015557612<br>
+ Mobile: 931511113<br>
+ Fax: 12356487
+ </p>
+ </div>
+
+ <ul class="contact-social">
+ <li>
+ <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+ </li>
+ <li>
+ <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+ </li>
+ <li>
+ <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+ </li>
+ 
+ </ul> <!-- end contact-social -->
+
+ </div> <!-- end contact-info -->
+ </div> <!-- end contact-secondary -->
+
+ </div> <!-- end contact-content -->
+
+ </section> <!-- end s-contact -->
+
+
+ <div class="row footer-bottom">
+
+ <div class="col-twelve">
+ <div class="copyright">
+ <span>© EFA BITS PILANI 2017</span> 
+ <span>Made by Keshav Sethi and Bhavya Gera <a href=""><i class="fa fa-facebook" style="padding-right:8px;"></i></a><a href=""><i class="fa fa-instagram" style="padding-right:8px;"></i></a><a href=""><i class="fa fa-github"></i></a></span> 
+ </div>
+
+ <div class="go-top">
+ <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+ </div>
+ </div>
+
+ </div> 
+
+ </footer> <br>
+
+ <!-- photoswipe background
+ ================================================== -->
+ <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+ <div class="pswp__bg"></div>
+ <div class="pswp__scroll-wrap">
+
+ <div class="pswp__container">
+ <div class="pswp__item"></div>
+ <div class="pswp__item"></div>
+ <div class="pswp__item"></div>
+ </div>
+
+ <div class="pswp__ui pswp__ui--hidden">
+ <div class="pswp__top-bar">
+ <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+ "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+ "Zoom in/out"></button>
+ <div class="pswp__preloader">
+ <div class="pswp__preloader__icn">
+ <div class="pswp__preloader__cut">
+ <div class="pswp__preloader__donut"></div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+ <div class="pswp__share-tooltip"></div>
+ </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+ "Next (arrow right)"></button>
+ <div class="pswp__caption">
+ <div class="pswp__caption__center"></div>
+ </div>
+ </div>
+
+ </div>
+
+ </div> <!-- end photoSwipe background -->
+
+
+ <!-- preloader
+ ================================================== -->
+ <div id="preloader">
+ <div id="loader">
+ <div class="line-scale-pulse-out">
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ </div>
+ </div>
+ </div>
+
+
+ <!-- Java Script
+ ================================================== -->
+ <script src="js/jquery-3.2.1.min.js"></script>
+ <script src="js/plugins.js"></script>
+ <script src="js/main.js"></script>
+
+</body>
+
+</html>
