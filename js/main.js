@@ -1,7 +1,15 @@
-/* ===================================================================
- * Glint - Main JS
- *
- * ------------------------------------------------------------------- */
+$(document).ready(function() {
+    $('#top12').fullpage({
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['home', 'speakers','services','works','clients','contact'],
+      showActiveTooltip: true,
+      slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+      controlArrows:true,
+    });
+});
+//change this later 
 
 (function($) {
 
