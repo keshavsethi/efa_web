@@ -4,7 +4,7 @@
 If you dont know anthing about open source then go througn this video
 https://youtu.be/k6KcaMffxac  (skip to 15 minutes for main thing)
 
-## IMPORTANT This is for Windows person 
+## IMPORTANT This is for Windows installation
 https://youtu.be/J_Clau1bYco 
 go through this video and see how it works and then try contributing later
 (if many people find issue then i will conduct a small session on this)
