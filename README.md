@@ -22,5 +22,5 @@ We recommend you either work in a virtual environment, or on a dual booted syste
 2. [Setting up a linux virtual env](https://itsfoss.com/install-linux-in-virtualbox/)
 
 
-Dont get demotivated if you can't do it in one go(ask in issues section i will  surely respond)
+Dont get demotivated if you can't do it in one go(ask in issues section I will  surely respond)
 ....
