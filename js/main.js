@@ -9,7 +9,8 @@ $(document).ready(function() {
       controlArrows:true,
     });
 });
-//change this later 
+//change this now
+// comment 
 
 (function($) {
 
